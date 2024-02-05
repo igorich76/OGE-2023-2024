@@ -1,0 +1,14 @@
+##
+var s := '1'+'8'*80;
+Println('Начало:',s);
+
+while ('18' in s) or ('288' in s) or ('3888' in s) do
+
+  if ('18' in s) then s := s.Replace('18','2',1)
+      else 
+        if ('288' in s) then s := s.Replace('288','3',1)
+            else 
+              s := s.Replace('3888','1',1);
+
+Print('Окончание:', s);
+// можно и через contains сделать (вместо in)
