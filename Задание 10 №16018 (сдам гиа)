@@ -1,0 +1,4 @@
+##
+uses school;
+var  a := Dec('1100110',2);
+Println(a);
