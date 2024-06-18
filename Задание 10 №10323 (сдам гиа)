@@ -1,0 +1,8 @@
+##
+uses school;
+var  a := Dec('23',16);
+Println(a);
+var  b := Dec('32',8);
+Println(b);
+var  c := Dec('11110',2);
+Print(c);
