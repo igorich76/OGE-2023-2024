@@ -1,0 +1,11 @@
+##
+uses school;
+var a := 55;
+var b := 83;
+var c := 91;
+var a1 := Oct(a);
+Println(a1);
+var b1 := Oct(b);
+Println(b1);
+var c1 := Oct(c);
+Println(c1);
